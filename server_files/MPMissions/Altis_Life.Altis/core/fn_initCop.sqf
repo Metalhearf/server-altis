@@ -2,7 +2,7 @@
 /*
 	File: fn_initCop.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Cop Initialization file.
 */

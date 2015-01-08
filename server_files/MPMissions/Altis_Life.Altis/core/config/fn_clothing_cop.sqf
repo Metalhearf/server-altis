@@ -61,7 +61,9 @@ switch (_filter) do
 			["G_Aviator",nil,75],
 			["G_Squares",nil,10],
 			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["G_Combat",nil,55],
+			["rpima_goggle_black","Lunettes de combat",0],
+			["G_Diving","Masque de plongée",0]
 		];
 	};
 
@@ -72,7 +74,7 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["V_PlateCarrier2_rgr",nil,1500];
-			_ret pushBach ["\textures\gign\vests_blac2.paa",nil,1600];
+			_ret set[count _ret,["gign_BlackVest","Gilet pare-alles",0]];
 		};
 	};
 

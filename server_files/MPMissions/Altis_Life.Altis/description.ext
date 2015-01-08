@@ -13,15 +13,15 @@ class Header
 {
 	gameType = RPG;
 	minPlayers = 1;
-	maxPlayers = 99;
+	maxPlayers = 75;
 };
 
-wreckLimit = 10;
+wreckLimit = 15;
 wreckRemovalMinTime = 60;
 wreckRemovalMaxTime = 320;
 corpseLimit = 150;
-corpseRemovalMinTime = 3;
-corpseRemovalMaxTime = 10;
+corpseRemovalMinTime = 999;
+corpseRemovalMaxTime = 9999;
 
 #include "dialog\MasterHandler.h"
 

@@ -72,10 +72,7 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["V_PlateCarrier2_rgr",nil,1500];
-		};
-		if(__GETC__(life_coplevel) > 2) then
-		{
-			_ret pushBach ["textures\gign\vests_blac2.paa",nil,1600];
+			_ret pushBach ["\textures\gign\vests_blac2.paa",nil,1600];
 		};
 	};
 

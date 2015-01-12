@@ -1,3 +1,3 @@
-server-altis
+server
 ============
 Code Source

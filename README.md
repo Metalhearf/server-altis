@@ -10,5 +10,5 @@ Vous pourrez à présent voir tous les objets personnalisés sur le serveur, sin
 
 Votre répertoire doit ressembler à ceci :
 
-VotreRepertoireArma3/@life_server/addons/xxx.pbo
+VotreRepertoireArma3/@life_server/addons/xxx.pbo <br>
 VotreRepertoireArma3/@life_server/addons/xxx.bisign

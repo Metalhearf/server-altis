@@ -225,7 +225,7 @@ switch(_shop) do
 						["hgun_PDW2000_F",nil,9500],
 						["30Rnd_9x21_Mag",nil,75],
 						["optic_ACO_grn_smg",nil,950],
-						["V_Rangemaster_belt",nil,1900],
+						["V_Rangemaster_belt",nil,1900]
 					]
 				];
 			};

@@ -41,7 +41,7 @@ player createDiarySubject ["controls","Controls"];
 
 		player createDiaryRecord ["serverrules",
 		[
-			"Exploits", 
+			"Exploits",
 				"
 				These are considered exploits, and you will not be kicked, but banned.<br/><br/>
 

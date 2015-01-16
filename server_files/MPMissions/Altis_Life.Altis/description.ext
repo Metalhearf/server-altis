@@ -1,9 +1,10 @@
-author = "Tonic";
-onLoadName = "Altis Life RPG v3.1.4.8";
-onLoadMission = "A RPG game mode developed by Tonic";
+author = "ProjectName";
+onLoadName = "(AltisLife 3.1.4.8)";
+onLoadMission = "En développement";
+onLoadMissionTime = 1;
 joinUnassigned = 1;
 respawn = BASE;
-respawndelay = 5;
+respawndelay = 4;
 disabledAI = true;
 disableChannels[]={0,1,2};
 enableDebugConsole = 1;
@@ -16,12 +17,12 @@ class Header
 	maxPlayers = 99;
 };
 
-wreckLimit = 15;
-wreckRemovalMinTime = 60;
+wreckLimit = 5;
+wreckRemovalMinTime = 180;
 wreckRemovalMaxTime = 320;
-corpseLimit = 150;
-corpseRemovalMinTime = 999;
-corpseRemovalMaxTime = 9999;
+corpseLimit = 1;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 180;
 
 #include "dialog\MasterHandler.h"
 
@@ -66,9 +67,9 @@ class CfgDebriefing
 {
 	class NotWhitelisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are not white-listed to use this slot";
-		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
+		title = "Vous n'êtes pas Whitelisté";
+		subtitle = "Vous n'êtes pas whitelisté pour ce slot.";
+		description = "Vous devez faire une demande de validation sur le site pour pouvoir jouer ce rôle.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -76,9 +77,9 @@ class CfgDebriefing
 
 	class Blacklisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are blacklisted from cops";
-		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		title = "Blacklisté";
+		subtitle = "Vous êtes banni de la Gendarmerie";
+		description = "Du fait de vos exactions, vous avez été banni de la Gendarmerie par nos administrateurs.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -87,8 +88,8 @@ class CfgDebriefing
 	class SpyGlass
 	{
 		title = "The SpyGlass sees you";
-		subTitle = "You were detected by the SpyGlass";
-		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
+		subTitle = "Vous avez été détecté par le SpyGlass";
+		description = "Vous possédez des fichiers modifiés ou bien tentez de tricher. Votre nom a été enregistré et les administrateurs seront notifiés. Bloqué ? Expliquez votre problème sur le site !";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -99,7 +100,7 @@ class CfgNotifications
 {
 	class MedicalRequestEmerg
 	{
-		title = "EMS Requested";
+		title = "Urgence ! Médecin du SAMU demandé !";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 5;
@@ -108,7 +109,7 @@ class CfgNotifications
 
 	class DeliveryAssigned
 	{
-		title = "Delivery Job Accepted";
+		title = "Mission de livraison acceptée";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 10;
@@ -117,7 +118,7 @@ class CfgNotifications
 
 	class DeliveryFailed
 	{
-		title = "Delivery Job Failed";
+		title = "Mission de livraison échouée";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
 		description = "%1";
 		duration = 7;
@@ -126,7 +127,7 @@ class CfgNotifications
 
 	class DeliverySucceeded
 	{
-		title = "Delivery Job Completed";
+		title = "Mission de livraison réussie";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
 		description = "%1";
 		duration = 6;
@@ -135,7 +136,7 @@ class CfgNotifications
 
 	class TextMessage
 	{
-		title = "Received A Text Message";
+		title = "Vous avez reçu un SMS";
 		iconPicture = "icons\messagenew.paa";
 		description = "%1";
 		duration = 10;
@@ -144,7 +145,7 @@ class CfgNotifications
 
 	class PoliceDispatch
 	{
-		title = "911 Dispatch Center";
+		title = "Message pour la Gendarmerie";
 		iconPicture = "icons\messagepolice.paa";
 		description = "%1";
 		duration = 10;
@@ -153,7 +154,7 @@ class CfgNotifications
 
 	class AdminDispatch
 	{
-		title = "Admin Dispatch Center";
+		title = "Dispatch Admin";
 		iconPicture = "icons\messageadmin.paa";
 		description = "%1";
 		duration = 10;
@@ -162,7 +163,7 @@ class CfgNotifications
 
 	class AdminMessage
 	{
-		title = "Admin Message";
+		title = "Message Admin";
 		iconPicture = "icons\messageadmin.paa";
 		description = "%1";
 		duration = 10;

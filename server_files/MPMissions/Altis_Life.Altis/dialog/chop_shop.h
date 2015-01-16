@@ -3,7 +3,7 @@ class Chop_Shop
 	idd = 39400;
 	movingEnabled = false;
 	enableSimulation = true;
-	
+
 	class controlsBackground
 	{
 		class RscTitleBackground : Life_RscText
@@ -13,7 +13,7 @@ class Chop_Shop
 			x = 0.1; y = 0.2;
 			w = 0.32; h = (1 / 25);
 		};
-		
+
 		class MainBackGround : Life_RscText
 		{
 			colorBackground[] = {0,0,0,0.7};
@@ -21,7 +21,7 @@ class Chop_Shop
 			x = 0.1; y = 0.2 + (11 / 250);
 			w = 0.32; h = 0.6 - (22 / 250);
 		};
-		
+
 		class Title : Life_RscTitle
 		{
 			colorBackground[] = {0,0,0,0};
@@ -30,7 +30,7 @@ class Chop_Shop
 			x = 0.1; y = 0.2;
 			w = 0.32; h = (1 / 25);
 		};
-		
+
 		class priceInfo : Life_RscStructuredText
 		{
 			idc = 39401;
@@ -40,7 +40,7 @@ class Chop_Shop
 			w = 0.2; h = 0.2;
 		};
 	};
-	
+
 	class controls
 	{
 		class vehicleList : Life_RscListBox
@@ -51,7 +51,7 @@ class Chop_Shop
 			x = 0.11; y = 0.25;
 			w = 0.3; h = 0.38;
 		};
-		
+
 		class BtnSell : Life_RscButtonMenu
 		{
 			idc = -1;
@@ -62,7 +62,7 @@ class Chop_Shop
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		
+
 		class BtnClose : Life_RscButtonMenu
 		{
 			idc = -1;

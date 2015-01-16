@@ -9,7 +9,7 @@ class life_progress
 	onLoad="uiNamespace setVariable ['life_progress',_this select 0]";
 	objects[]={};
 
-	class controlsBackground 
+	class controlsBackground
 	{
 		class background : Life_RscText
 		{
@@ -26,7 +26,7 @@ class life_progress
 			y = 0.06 * safezoneH + safezoneY;
 			w = 0.65; h = 0.05;
 		};
-		
+
 		class ProgressText : Life_RscText
 		{
 			idc = 38202;
@@ -48,7 +48,7 @@ class life_timer
 	movingEnable = 0;
 	onLoad = "uiNamespace setVariable['life_timer',_this select 0]";
 	objects[] = {};
-	
+
 	class controlsBackground
 	{
 		class TimerIcon : life_RscPicture

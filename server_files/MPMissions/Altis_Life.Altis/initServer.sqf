@@ -1,6 +1,6 @@
 /*
 	File: initServer.sqf
-	
+
 	Description:
 	Starts the initialization of the server.
 */
@@ -20,7 +20,7 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 	_var attachTo [_hs, [4.69775,32.6045,-0.1125]];
 	detach _var;
 	_var = createVehicle ["Land_Hospital_side2_F", [0,0,0], [], 0, "NONE"];
-	_var attachTo [_hs, [-28.0336,-10.0317,0.0889387]]; 
+	_var attachTo [_hs, [-28.0336,-10.0317,0.0889387]];
 	detach _var;
 } foreach ["hospital_2","hospital_3"];
 

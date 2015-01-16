@@ -2,9 +2,9 @@
 #define GVAR getVariable
 /*
 	File: fn_variableCheck.sqf
-	
+
 	Description:
-	Checks against harmful variables, disable this if client-performance is 
+	Checks against harmful variables, disable this if client-performance is
 	to bad in the fn_initSpy.sqf, the menuCheck should be good enough!
 */
 private["_badVariables","_checkThread"];

@@ -3,11 +3,11 @@
 #define steamid getPlayerUID player
 /*
 	File: fn_initSpy.sqf
-	
+
 	Description:
 	Does some things that I made over-complicated / un-needed but blah.
 	Will eventually include server-side checks but it's blah at this point.
-	
+
 	Will also become a standalone system which is why it's setup like this.
 */
 	private["_binConfigPatches","_cfgPatches","_endM"];
@@ -29,7 +29,7 @@ CONST(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"false");
 
 /*
 	Compile our list of allowed addon patches, by default this DOES NOT ALLOW ANY ADDONS.
-	
+
 	If you want to white-list addons such as JSRS or Blastcore you need to start a test instance (Host locally and not the mission) and first fill the SPY_cfg_patchList array, once you executed it (Filled it)
 	Run the following code and it will copy the list of addons / patches not in the list to your clipboard (Ctrl + V) and then add it to the array.
 
@@ -45,7 +45,7 @@ CONST(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"false");
 	};
 
 	copyToClipboard str(_cfgPatches);
-	
+
 	i.e
 	["cba_xeh","Extended_EventHandlers","CBA_Extended_EventHandlers","JSRS_Environment","WarFXPE","cba_common","cba_events","cba_hashes","cba_network","cba_strings","cba_ui","cba_vectors","JSRS2_120mm_Cannon","JSRS2_127","JSRS2_155mm_AMOS",
 	"JSRS2_230mm_Titan","JSRS2_30mm_Cannon","JSRS2_35mm_Autocannon","JSRS2_4Five45","JSRS2_ACPC","JSRS2_Autocannon","JSRS2_Bullethits","JSRS2_DAGR","JSRS2_DAR","JSRS2_EBR","JSRS2_Explosions","JSRS2_Explosives","JSRS2_Filters","JSRS2_FS2000",
@@ -172,7 +172,7 @@ _allowedChildren = [
 /*
 	Display Validator
 	Loops through and makes sure none of the displays were modified..
-	
+
 	TODO: Run check every x minutes and validate all displays.
 */
 	{

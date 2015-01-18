@@ -1,7 +1,7 @@
 /*
 	File: fn_receiveItem.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Receive an item from a player.
 */

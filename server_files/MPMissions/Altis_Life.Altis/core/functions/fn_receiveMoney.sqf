@@ -1,7 +1,7 @@
 /*
 	File: fn_receiveMoney.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Receives money
 */

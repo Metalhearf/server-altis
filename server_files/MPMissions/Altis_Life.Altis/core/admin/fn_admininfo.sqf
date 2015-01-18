@@ -1,7 +1,7 @@
 /*
 	File: fn_admininfo.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Output information received to admin menu.
 */
@@ -30,5 +30,5 @@ if(primaryWeapon _unit != "") then
 };
 
 if(count _attach == 0) then {_attach = "None"};
-_text ctrlSetStructuredText parseText format["Name: %1<br/>Bank: %2<br/>Money: %3<br/>Uniform: %4<br/>Vest: %5<br/>Backpack: %6<br/>Primary: %7<br/>Handgun: %8<br/><t align='center'>Primary Attachments</t><br/>%9",
+_text ctrlSetStructuredText parseText format["Nom : %1<br/>Banque : %2<br/>Argent : %3<br/>Tenue: %4<br/>Veste: %5<br/>Sac : %6<br/>Arme Principale: %7<br/>Pistolet: %8<br/><t align='center'>Attachements</t><br/>%9",
 _unit getVariable["realname",name _unit],[_ret select 0] call life_fnc_numberText,[_ret select 1] call life_fnc_numberText, _uni,_vest,_bp,_prim,_sec,_attach];

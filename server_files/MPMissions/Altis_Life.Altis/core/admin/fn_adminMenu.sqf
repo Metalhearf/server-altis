@@ -2,7 +2,7 @@
 /*
 	File: fn_adminMenu.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Opens the admin menu, sorry nothing special in here. Take a look for yourself.
 */

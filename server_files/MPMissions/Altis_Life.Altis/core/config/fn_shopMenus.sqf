@@ -14,13 +14,13 @@ if(!dialog) then
 	if(!(createDialog "shop_menu")) exitWith {};
 };
 disableSerialization;
-ctrlSetText[601,format["Cash: $%1",[life_cash] call life_fnc_numberText]];
+ctrlSetText[601,format["Argent : $%1",[life_cash] call life_fnc_numberText]];
 
 switch (_shop) do
 {
 	case "reb":
 	{
-		ctrlSetText[2505,"Altis Rebel Shop"];
+		ctrlSetText[2505,"Magasin Rebel"];
 		ctrlShow[2503,false];
 		ctrlShow[2513,false];
 		ctrlShow[2514,false];
@@ -28,13 +28,13 @@ switch (_shop) do
 
 	case "cop":
 	{
-		ctrlSetText[2505,"Altis Cop Shop"];
+		ctrlSetText[2505,"Magasin Gendarmerie"];
 		ctrlShow[2503,false];
 	};
 
 	case "gun":
 	{
-		ctrlSetText[2505,"Altis Gun Store"];
+		ctrlSetText[2505,"Armurerie Civile"];
 		ctrlShow[2503,false];
 		ctrlShow[2513,false];
 		ctrlShow[2514,false];
@@ -42,7 +42,7 @@ switch (_shop) do
 
 	case "gang":
 	{
-		ctrlSetText[2505,"Gang Shop"];
+		ctrlSetText[2505,"Magasin de Gang"];
 		ctrlShow[2503,false];
 		ctrlShow[2513,false];
 		ctrlShow[2514,false];
@@ -50,7 +50,7 @@ switch (_shop) do
 
 	case "dive":
 	{
-		ctrlSetText[2505,"Altis Diving Shop"];
+		ctrlSetText[2505,"Boutique de Plongée"];
 		ctrlShow[2503,false];
 		ctrlShow[2510,false];
 		ctrlShow[2511,false];
@@ -59,30 +59,30 @@ switch (_shop) do
 
 	case "donator":
 	{
-		ctrlSetText[2505,"Donator Shop"];
+		ctrlSetText[2505,"Boutique de Donateur"];
 	};
 
 	case "sergeant":
 	{
-		ctrlSetText[2505,"Sergeants Shop"];
+		ctrlSetText[2505,"Magasin des Sergents"];
 		ctrlShow[2503,false];
 	};
 
 	case "gen":
 	{
-		ctrlSetText[2505,"Altis General Store"];
+		ctrlSetText[2505,"Magasin Général"];
 		ctrlShow[2503,false];
 	};
 
 	case "officer":
 	{
-		ctrlSetText[2505,"Patrol Officer Shop"];
+		ctrlSetText[2505,"Magasin des Officiers"];
 		ctrlShow[2503,false];
 	};
 
 	case "admin":
 	{
-		ctrlSetText[2505,"Admin Shop"];
+		ctrlSetText[2505,"Magasin ADMIN"*];
 	};
 };
 

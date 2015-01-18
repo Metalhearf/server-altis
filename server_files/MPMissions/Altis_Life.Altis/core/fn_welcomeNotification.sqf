@@ -4,9 +4,9 @@
 	Description:
 	Called upon first spawn selection and welcomes our player.
 */
-format["Bonjour %1, lisez-ceci, c'est important !",profileName] hintC
+format["Bonjour %1 !",profileName] hintC
 [
-	"Bienvenue ! Certaines choses ont changé sur Altis Life et vous devez en être conscients !",
+	"Certaines choses ont changé sur Altis Life et vous devez en être conscients !",
 	"Un bouton interactif a été ajouté : par défaut c'est la touche WINDOWS. Vous pouvez changer cette touche en modifiant vos raccourcis : Configurer->Contrôles->Custom et lier une touche à (USE ACTION 10).",
 	"Cette touche permet de :",
 	"Prendre Objets & Monnaie",

@@ -2,7 +2,7 @@
 /*
 	File: fn_initMedic.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Initializes the medic..
 */

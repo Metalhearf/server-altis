@@ -2,7 +2,7 @@
 /*
 	File: fn_cellphone.sqf
 	Author: Alan
-	
+
 	Description:
 	Opens the cellphone menu?
 */

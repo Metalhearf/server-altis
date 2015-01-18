@@ -2,7 +2,7 @@
 /*
 	File: fn_wantedMenu.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Opens the Wanted menu and connects to the APD.
 */
@@ -16,7 +16,7 @@ _list = _display displayCtrl 2401;
 lbClear _list;
 _units = [];
 
-ctrlSetText[2404,"Establishing connection..."];
+ctrlSetText[2404,"Connexion en cours..."];
 
 if(__GETC__(life_coplevel) < 3 && __GETC__(life_adminlevel) == 0) then
 {

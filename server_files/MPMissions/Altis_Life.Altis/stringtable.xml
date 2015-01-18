@@ -363,35 +363,35 @@
 		<Key ID="STR_CELL_Title">
 			<Original>Altis Mobile</Original>
  			<German>Altis Mobilfunk</German>
-			<French>Altis mobile</French>
+			<French>Téléphone Portable</French>
 			<Italian>Cellulare Altis</Italian>
 			<Portuguese>Altis Mobile</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextToSend">
 			<Original>Message To Send:</Original>
 			<German>Deine Nachricht:</German>
-			<French>SMS à Envoyer :</French>
+			<French>Ecrivez-ci dessous le SMS à envoyer, PUIS sélectionnez laestination ! </French>
 			<Italian>Messaggio da mandare:</Italian>
 			<Portuguese>Mensagem a enviar:</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextMSGBtn">
 			<Original>Text Message:</Original>
 			<German>Nachricht:</German>
-			<French>Text Message:</French>
+			<French>Envoi Contact</French>
 			<Italian>Msg Giocatore:</Italian>
 			<Portuguese>Mensagem:</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextPolice">
 			<Original>Text Police</Original>
 			<German>An die Polizei</German>
-			<French>Text Police</French>
+			<French>Envoi Gendarmerie</French>
 			<Italian>Msg Polizia</Italian>
 			<Portuguese>Polícia</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextAdmins">
 			<Original>Text Admins</Original>
 			<German>An die Admins</German>
-			<French>Text Admins</French>
+			<French>Envoi Admins</French>
 			<Italian>Msg Admin</Italian>
 			<Portuguese>Text Admin</Portuguese>
 		</Key>
@@ -412,7 +412,7 @@
 		<Key ID="STR_CELL_EMSRequest">
 			<Original>Request EMS</Original>
 			<German>An die Sanitäter</German>
-			<French>Requête Medecin</French>
+			<French>Urgence SAMU</French>
 			<Italian>Msg medici</Italian>
 			<Portuguese>Chamar SAMU</Portuguese>
 		</Key>
@@ -1063,28 +1063,28 @@
 		<Key ID="STR_SM_onFoot">
 			<Original>On Foot:</Original>
 			<German>Zu Fuß:</German>
-			<French>A Pied:</French>
+			<French>A Pieds :</French>
 			<Italian>A piedi:</Italian>
 			<Portuguese>A Pé:</Portuguese>
 		</Key>
 		<Key ID="STR_SM_inCar">
 			<Original>In Car:</Original>
 			<German>Im Auto:</German>
-			<French>Terre:</French>
+			<French>En Voiture :</French>
 			<Italian>Auto:</Italian>
 			<Portuguese>No Carro:</Portuguese>
 		</Key>
 		<Key ID="STR_SM_inAir">
 			<Original>In Air:</Original>
 			<German>In der Luft:</German>
-			<French>Air:</French>
+			<French>En Hélicoptère :</French>
 			<Italian>Aria:</Italian>
 			<Portuguese>No Ar:</Portuguese>
 		</Key>
 		<Key ID="STR_SM_ToolTip1">
 			<Original>View distance while on foot</Original>
 			<German>Sichtweite zu Fuß</German>
-			<French>Distance de vue à pied</French>
+			<French>Distance de vue à pieds</French>
 			<Italian>Distanza visiva a piedi</Italian>
 			<Portuguese>Vizualizar distância quando a pé</Portuguese>
 		</Key>
@@ -1186,7 +1186,7 @@
 		<Key ID="STR_Spawn_Spawn">
 			<Original>Spawn</Original>
 			<German>Spawnen</German>
-			<French>Spawn</French>
+			<French>Spawn !</French>
 			<Italian>Spawn</Italian>
 			<Portuguese>Começar...</Portuguese>
 		</Key>

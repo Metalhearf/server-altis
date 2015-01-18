@@ -1,7 +1,7 @@
 /*
 	File: fn_pardon.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Pardons the selected player.
 */

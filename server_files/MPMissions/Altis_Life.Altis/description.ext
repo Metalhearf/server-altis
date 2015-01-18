@@ -1,5 +1,5 @@
-author = "ProjectName";
-onLoadName = "(AltisLife 3.1.4.8)";
+author = "PROJECTNAME";
+onLoadName = "PROJECTNAME (AltisLife 3.1.4.8)";
 onLoadMission = "En développement";
 onLoadMissionTime = 1;
 joinUnassigned = 1;

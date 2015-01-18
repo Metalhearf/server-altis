@@ -370,28 +370,28 @@
 		<Key ID="STR_CELL_TextToSend">
 			<Original>Message To Send:</Original>
 			<German>Deine Nachricht:</German>
-			<French>Ecrivez-ci dessous le SMS à envoyer, PUIS sélectionnez laestination ! </French>
+			<French>Ecrivez ici le SMS à envoyer, PUIS la cible ! </French>
 			<Italian>Messaggio da mandare:</Italian>
 			<Portuguese>Mensagem a enviar:</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextMSGBtn">
 			<Original>Text Message:</Original>
 			<German>Nachricht:</German>
-			<French>Envoi Contact</French>
+			<French>Contact</French>
 			<Italian>Msg Giocatore:</Italian>
 			<Portuguese>Mensagem:</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextPolice">
 			<Original>Text Police</Original>
 			<German>An die Polizei</German>
-			<French>Envoi Gendarmerie</French>
+			<French>Gendarmerie</French>
 			<Italian>Msg Polizia</Italian>
 			<Portuguese>Polícia</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextAdmins">
 			<Original>Text Admins</Original>
 			<German>An die Admins</German>
-			<French>Envoi Admins</French>
+			<French>Admins</French>
 			<Italian>Msg Admin</Italian>
 			<Portuguese>Text Admin</Portuguese>
 		</Key>
@@ -1063,21 +1063,21 @@
 		<Key ID="STR_SM_onFoot">
 			<Original>On Foot:</Original>
 			<German>Zu Fuß:</German>
-			<French>A Pieds :</French>
+			<French>Au Sol :</French>
 			<Italian>A piedi:</Italian>
 			<Portuguese>A Pé:</Portuguese>
 		</Key>
 		<Key ID="STR_SM_inCar">
 			<Original>In Car:</Original>
 			<German>Im Auto:</German>
-			<French>En Voiture :</French>
+			<French>En Auto. :</French>
 			<Italian>Auto:</Italian>
 			<Portuguese>No Carro:</Portuguese>
 		</Key>
 		<Key ID="STR_SM_inAir">
 			<Original>In Air:</Original>
 			<German>In der Luft:</German>
-			<French>En Hélicoptère :</French>
+			<French>En Vol :</French>
 			<Italian>Aria:</Italian>
 			<Portuguese>No Ar:</Portuguese>
 		</Key>

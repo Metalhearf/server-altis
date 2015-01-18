@@ -1,7 +1,7 @@
 /*
 	File: fn_varHandle.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master handler for getting a variables name, short name, etc.
 */
@@ -67,7 +67,7 @@ switch (_mode) do
 			case "storagebig": {"life_inv_storagebig"};
 		};
 	};
-	
+
 	case 1:
 	{
 		switch (_var) do

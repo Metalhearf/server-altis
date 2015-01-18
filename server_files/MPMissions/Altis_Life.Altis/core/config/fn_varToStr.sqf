@@ -1,7 +1,7 @@
 /*
 	File: fn_varToStr.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Takes the long-name (variable) and returns a display name for our
 	virtual item.

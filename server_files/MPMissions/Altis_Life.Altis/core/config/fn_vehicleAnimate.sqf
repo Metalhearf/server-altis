@@ -1,7 +1,7 @@
 /*
 	File: fn_vehicleAnimate.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Pass what you want to be animated.
 */
@@ -40,14 +40,14 @@ if(!_preset) then
 			_vehicle lockCargo [4,true];
 			_vehicle lockCargo [5,true];
 		};
-		
+
 		case "service_truck":
 		{
 			//waitUntil{!isNil {_vehicle getVariable "color"}};
 			_vehicle animate ["HideServices", 0];
 			_vehicle animate ["HideDoor3", 1];
 		};
-		
+
 		case "med_offroad":
 		{
 			if(typeOf _vehicle == "C_Offroad_01_F") then {
@@ -56,7 +56,7 @@ if(!_preset) then
 			_vehicle animate ["HidePolice", 0];
 			_vehicle setVariable["lights",false,true];
 		};
-		
+
 		case "cop_offroad":
 		{
 			if(typeOf _vehicle == "C_Offroad_01_F") then {

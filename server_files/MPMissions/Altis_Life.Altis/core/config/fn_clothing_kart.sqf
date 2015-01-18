@@ -1,7 +1,7 @@
 /*
 	File: fn_clothing_kart.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master configuration file for Bobby's Kart Racing Outfits
 */
@@ -31,7 +31,7 @@ switch (_filter) do
 		["U_C_Driver_4",nil,3700]
 		];
 	};
-	
+
 	//Hats
 	case 1:
 	{
@@ -48,21 +48,21 @@ switch (_filter) do
 			["H_RacingHelmet_4_F",nil,2500]
 		];
 	};
-	
+
 	//Glasses
 	case 2:
 	{
 		[
 		];
 	};
-	
+
 	//Vest
 	case 3:
 	{
 		[
 		];
 	};
-	
+
 	//Backpacks
 	case 4:
 	{

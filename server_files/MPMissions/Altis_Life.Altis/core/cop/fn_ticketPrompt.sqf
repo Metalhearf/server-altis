@@ -1,7 +1,7 @@
 /*
 	File: fn_ticketPrompt
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Prompts the player that he is being ticketed.
 */

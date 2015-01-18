@@ -1,7 +1,7 @@
 /*
 	File: fn_licenseCheck.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Returns the licenses to the cop.
 */

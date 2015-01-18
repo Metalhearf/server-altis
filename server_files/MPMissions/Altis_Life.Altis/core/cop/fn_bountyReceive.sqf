@@ -1,7 +1,7 @@
 /*
 	File: fn_bountyReceive.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Notifies the player he has received a bounty and gives him the cash.
 */

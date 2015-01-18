@@ -1,7 +1,7 @@
 /*
 	File: fn_questionDealer.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Questions the drug dealer and sets the sellers wanted.
 */

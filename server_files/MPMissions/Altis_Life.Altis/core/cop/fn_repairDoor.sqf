@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Re-locks the door mainly for the federal reserve structures.
 */

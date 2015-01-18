@@ -1,7 +1,7 @@
 /*
 	File: fn_copSiren.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts the cop siren sound for other players
 */

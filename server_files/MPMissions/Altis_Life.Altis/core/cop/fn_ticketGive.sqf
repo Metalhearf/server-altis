@@ -1,7 +1,7 @@
 /*
 	File: fn_ticketGive.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Gives a ticket to the targeted player.
 */

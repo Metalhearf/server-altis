@@ -1,7 +1,7 @@
 /*
 	File: fn_licensesRead.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Outprints the licenses.
 */

@@ -2,7 +2,7 @@
 /*
 	File: fn_sellGarage.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Sells a vehicle from the garage.
 */

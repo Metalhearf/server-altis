@@ -4,7 +4,7 @@ class Life_ticket_give
 	name = "life_ticket_give";
 	movingEnabled = false;
 	enableSimulation = true;
-	
+
 	class controlsBackground {
 		class Life_RscTitleBackground:Life_RscText {
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
@@ -14,7 +14,7 @@ class Life_ticket_give
 			w = 0.47;
 			h = (1 / 25);
 		};
-		
+
 		class MainBackground:Life_RscText {
 			colorBackground[] = {0, 0, 0, 0.7};
 			idc = -1;
@@ -24,8 +24,8 @@ class Life_ticket_give
 			h = 0.3 - (22 / 250);
 		};
 	};
-	
-	class controls 
+
+	class controls
 	{
 		class Title : Life_RscTitle {
 			colorBackground[] = {0, 0, 0, 0};
@@ -36,11 +36,10 @@ class Life_ticket_give
 			w = 0.6;
 			h = (1 / 25);
 		};
-		
-		class moneyEdit : Life_RscEdit 
+
+		class moneyEdit : Life_RscEdit
 		{
 			idc = 2652;
-			
 			text = "100";
 			sizeEx = 0.030;
 			x = 0.40; y = 0.30;
@@ -66,7 +65,7 @@ class Life_ticket_pay
 	name = "life_ticket_pay";
 	movingEnabled = false;
 	enableSimulation = true;
-	
+
 	class controlsBackground {
 		class Life_RscTitleBackground:Life_RscText {
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
@@ -76,7 +75,7 @@ class Life_ticket_pay
 			w = 0.47;
 			h = (1 / 25);
 		};
-		
+
 		class MainBackground:Life_RscText {
 			colorBackground[] = {0, 0, 0, 0.7};
 			idc = -1;
@@ -86,8 +85,8 @@ class Life_ticket_pay
 			h = 0.3 - (22 / 250);
 		};
 	};
-	
-	class controls 
+
+	class controls
 	{
 		class InfoMsg : Life_RscStructuredText
 		{
@@ -109,7 +108,7 @@ class Life_ticket_pay
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		
+
 		class refuseTicket : Life_RscButtonMenu {
 			idc = -1;
 			text = "$STR_Ticket_RefuseTicket";

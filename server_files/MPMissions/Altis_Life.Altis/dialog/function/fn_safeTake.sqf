@@ -2,7 +2,7 @@
 /*
 	File: fn_safeTake.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Gateway to fn_vehTakeItem.sqf but for safe(s).
 */

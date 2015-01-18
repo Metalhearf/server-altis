@@ -1,7 +1,7 @@
 /*
 	File: fn_cookieJar.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Reports to the RPT of a confirmed cheater for external programs
 	to parse,log or ban automatically.

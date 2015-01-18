@@ -1,7 +1,7 @@
-/*	
+/*
 	File: fn_safeOpen.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Opens the safe inventory menu.
 */

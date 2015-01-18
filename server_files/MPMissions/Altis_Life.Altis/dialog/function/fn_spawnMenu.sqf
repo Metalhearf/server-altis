@@ -1,7 +1,7 @@
 /*
 	File: fn_spawnMenu.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Initializes the spawn point selection menu.
 */

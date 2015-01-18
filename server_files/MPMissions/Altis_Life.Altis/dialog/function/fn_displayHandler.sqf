@@ -1,7 +1,7 @@
 /*
 	File: fn_displayHandler.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master display handler
 */

@@ -1,7 +1,7 @@
 /*
 	File: fn_setMapPosition.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Sets the given control / maps focus position
 */

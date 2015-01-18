@@ -1,7 +1,7 @@
 /*
 	File: fn_bankTransfer.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Figure it out again.
 */

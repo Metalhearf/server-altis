@@ -2,7 +2,7 @@
 /*
 	File: fn_garageLBChange.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Can't be bothered to answer it.. Already deleted it by accident..
 */

@@ -8,37 +8,37 @@
 		name="playerHUD";
 		onLoad="uiNamespace setVariable ['playerHUD',_this select 0]";
 		objects[]={};
-		
-		class controlsBackground 
+
+		class controlsBackground
 		{
-			class foodHIcon : life_RscPicture 
+			class foodHIcon : life_RscPicture
 			{
-			
+
 				idc = -1;
 				text = "icons\food.paa";
 				x = safeZoneX+safeZoneW-0.115; y = safeZoneY+safeZoneH-0.54;
 				w = 0.03; h = 0.04;
 			};
-			
-			class waterHIcon : life_RscPicture 
+
+			class waterHIcon : life_RscPicture
 			{
-			
+
 				idc = -1;
 				text = "icons\water.paa";
 				x = safeZoneX+safeZoneW-0.12; y = safeZoneY+safeZoneH-0.50;
 				w = 0.04; h = 0.04;
 			};
-			
+
 			class healthHIcon : life_RscPicture
 			{
-				
+
 				idc = -1;
 				text = "icons\health.paa";
 				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.445;
 				w = 0.02; h = 0.03;
 			};
 		};
-		
+
 		class controls
 		{
 			class foodtext
@@ -58,7 +58,7 @@
 				shadow=true;
 				text="";
 			};
-			
+
 			class watertext
 			{
 				type=0;
@@ -76,7 +76,7 @@
 				shadow=true;
 				text="";
 			};
-			
+
 			class healthtext
 			{
 				type=0;
@@ -94,5 +94,5 @@
 				shadow=true;
 				text="";
 			};
-		};   
+		};
  	};

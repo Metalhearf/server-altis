@@ -1,7 +1,7 @@
 /*
 	File: fn_progressBar.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Initializes the progress bar.
 */

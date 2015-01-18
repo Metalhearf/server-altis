@@ -1,7 +1,7 @@
 /*
 	File: fn_bankDeposit.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Figure it out.
 */

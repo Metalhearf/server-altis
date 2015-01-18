@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Notifies members that the gang has been disbanded.
 */

@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	31 hours of no sleep screw your description.
 */

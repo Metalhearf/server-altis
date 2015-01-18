@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Something about being a quitter.
 */

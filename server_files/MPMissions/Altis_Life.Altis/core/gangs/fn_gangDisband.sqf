@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Prompts the user about disbanding the gang and if the user accepts the gang will be
 	disbanded and removed from the database.

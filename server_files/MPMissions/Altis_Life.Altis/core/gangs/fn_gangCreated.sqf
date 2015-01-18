@@ -1,7 +1,6 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
 	Description:
 	Tells the player that the gang is created and throws him into it.
 */

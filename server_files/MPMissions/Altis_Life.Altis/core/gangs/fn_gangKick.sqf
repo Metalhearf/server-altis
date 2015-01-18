@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	32 hours...
 */

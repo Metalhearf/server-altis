@@ -1,7 +1,6 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
 	Description:
 	Pulls up the menu and creates the gang?
 */

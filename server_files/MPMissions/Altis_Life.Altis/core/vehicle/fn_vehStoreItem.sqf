@@ -2,7 +2,7 @@
 /*
 	File: fn_vehStoreItem.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Used in the vehicle trunk menu, stores the selected item and puts it in the vehicles virtual inventory
 	if the vehicle has room for the item.
@@ -42,7 +42,7 @@ if(_ctrl == "money") then
 		_val = _inv select _index select 1;
 		_inv set[_index,[_ctrl,_val + _num]];
 	};
-	
+
 	life_cash = life_cash - _num;
 	life_trunk_vehicle setVariable["Trunk",[_inv,(_veh_data select 1) + _itemWeight],true];
 	[life_trunk_vehicle] call life_fnc_vehInventory;
@@ -62,7 +62,7 @@ if(_ctrl == "money") then
 		_val = _inv select _index select 1;
 		_inv set[_index,[_ctrl,_val + _num]];
 	};
-	
+
 	life_trunk_vehicle setVariable["Trunk",[_inv,(_veh_data select 1) + _itemWeight],true];
 	[life_trunk_vehicle] call life_fnc_vehInventory;
 };

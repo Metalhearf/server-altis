@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts automated mining of resource from the tempest device.
 */
@@ -53,7 +53,7 @@ while {true} do {
 	if(isEngineOn _vehicle) exitWith {titleText[localize "STR_NOTF_MiningStopped","PLAIN"];};
 	titleText[localize "STR_NOTF_DeviceMining","PLAIN"];
 	_time = time + 27;
-	
+
 	//Wait for 27 seconds with a 'delta-time' wait.
 	waitUntil {
 		if(isEngineOn _vehicle) exitWith {titleText[localize "STR_NOTF_MiningStopped","PLAIN"]; true};
@@ -67,7 +67,7 @@ while {true} do {
 	_space = _vInv select 1;
 	_itemIndex = [_item,_items] call TON_fnc_index;
 	_weight = [_vehicle] call life_fnc_vehicleWeight;
-	_sum = [_item,15,_weight select 1,_weight select 0] call life_fnc_calWeightDiff; //Get a sum base of the remaining weight.. 
+	_sum = [_item,15,_weight select 1,_weight select 0] call life_fnc_calWeightDiff; //Get a sum base of the remaining weight..
 	if(_sum < 1) exitWith {titleText[localize "STR_NOTF_DeviceFull","PLAIN"];};
 	_itemWeight = ([_item] call life_fnc_itemWeight) * _sum;
 	if(_itemIndex == -1) then {
@@ -76,21 +76,21 @@ while {true} do {
 		_val = _items select _itemIndex select 1;
 		_items set[_itemIndex,[_item,_val + _sum]];
 	};
-	
+
 	if(fuel _vehicle == 0) exitWith {titleText[localize "STR_NOTF_OutOfFuel","PLAIN"];};
-	
+
 	//Locality checks...
 	if(local _vehicle) then {
 		_vehicle setFuel (fuel _vehicle)-0.045;
 	} else {
 		[[_vehicle,(fuel _vehicle)-0.04],"life_fnc_setFuel",_vehicle,false] spawn life_fnc_MP;
 	};
-	
+
 	if(fuel _vehicle == 0) exitWith {titleText[localize "STR_NOTF_OutOfFuel","PLAIN"];};
 	titleText[format[localize "STR_NOTF_DeviceMined",_sum],"PLAIN"];
 	_vehicle setVariable["Trunk",[_items,_space + _itemWeight],true];
 	_weight = [_vehicle] call life_fnc_vehicleWeight;
-	_sum = [_item,15,_weight select 1,_weight select 0] call life_fnc_calWeightDiff; //Get a sum base of the remaining weight.. 
+	_sum = [_item,15,_weight select 1,_weight select 0] call life_fnc_calWeightDiff; //Get a sum base of the remaining weight..
 	if(_sum < 1) exitWith {titleText[localize "STR_NOTF_DeviceFull","PLAIN"];};
 	sleep 2;
 };

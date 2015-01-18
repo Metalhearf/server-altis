@@ -1,7 +1,7 @@
 /*
 	File: fn_calVehWeight.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starting to lose track on shit I wrote a year ago..
 */

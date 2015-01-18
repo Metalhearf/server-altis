@@ -1,7 +1,7 @@
 /*
 	File: fn_vehInventory.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Used a refresher for the vehicle inventory / trunk menu items.
 */

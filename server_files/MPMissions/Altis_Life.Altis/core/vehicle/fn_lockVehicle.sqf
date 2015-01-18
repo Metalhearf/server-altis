@@ -1,7 +1,7 @@
 /*
 	File: fn_lockVehicle.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Locks the vehicle (used through the network when the person calling it isn't local).
 */

@@ -1,7 +1,7 @@
 /*
 	File: fn_dataQuery.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts the 'authentication' process and sends a request out to
 	the server to check for player information.

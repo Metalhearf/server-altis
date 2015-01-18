@@ -1,7 +1,7 @@
 /*
 	File: fn_jail.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts the initial process of jailing.
 */

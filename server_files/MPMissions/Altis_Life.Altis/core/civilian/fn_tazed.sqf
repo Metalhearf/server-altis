@@ -1,7 +1,7 @@
 /*
 	File: fn_tazed.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts the tazed animation and broadcasts out what it needs to.
 */
@@ -31,7 +31,7 @@ if(_shooter isKindOf "Man" && alive player) then
 		{
 			{player addMagazine _x;} foreach _curMags;
 		};
-		
+
 		[[_unit],"life_fnc_tazeSound",true,false] spawn life_fnc_MP;
 		_obj = "Land_ClutterCutter_small_F" createVehicle (getPosATL _unit);
 		_obj setPosATL (getPosATL _unit);

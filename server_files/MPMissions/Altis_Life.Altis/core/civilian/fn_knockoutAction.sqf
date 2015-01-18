@@ -1,7 +1,7 @@
 /*
 	File: fn_knockoutAction.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Knocks out the target.
 */

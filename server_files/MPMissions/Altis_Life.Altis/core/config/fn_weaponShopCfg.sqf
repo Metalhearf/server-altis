@@ -27,7 +27,7 @@ switch(_shop) do
 			case (playerSide != west): {"Vous n'êtes pas policier !"};
 			default
 			{
-				["Altis Cop Shop",
+				["Armurerie Basique (Niv. 1)",
 					[
 						["R3F_PAMAS",nil,3000],
 						["R3F_15Rnd_9x19_PAMAS",nil,100],
@@ -60,7 +60,7 @@ switch(_shop) do
 		{
 			case (playerSide != independent): {"Vous n'êtes pas Médecin !"};
 			default {
-				["Hospital EMS Shop",
+				["Boutique du SAMU",
 					[
 						["ItemGPS",nil,100],
 						["Binocular",nil,150],
@@ -83,7 +83,7 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 2): {"Vous n'êtes pas assez gradé ! (Rang 2)"};
 			default
 			{
-				["Altis Patrol Officer Shop",
+				["Armurerie Avancée (Niv. 2)",
 					[
 						["R3F_Famas_G2_HG",nil,10000],
 						["R3F_30Rnd_556x45_TRACER_FAMAS",nil,100],
@@ -131,7 +131,7 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 3): {"Vous n'êtes pas assez gradé ! (Rang 3)"};
 			default
 			{
-				["Altis Sergeant Officer Shop",
+				["Armurerie Experte (Niv. 3)",
 					[
 						["R3F_Minimi_762",nil,15000],
 						["R3F_100Rnd_762x51_MINIMI",nil,500],
@@ -156,7 +156,7 @@ switch(_shop) do
 			case (!license_civ_rebel): {"Vous n'avez pas de Licence Rebelle !"};
 			default
 			{
-				["Mohammed's Jihadi Shop",
+				["Armurerie Rebelle (Illégal)",
 					[
 						["arifle_TRG20_F",nil,25000],
 						["30Rnd_556x45_Stanag",nil,300],
@@ -189,7 +189,7 @@ switch(_shop) do
 			case (!license_civ_gun): {"Vous n'avez pas de Licence d'Armes !"};
 			default
 			{
-				["Billy Joe's Firearms",
+				["Armurerie Civile (Légal)",
 					[
 						["hgun_Rook40_F",nil,6500],
 						["16Rnd_9x21_Mag",nil,25],
@@ -214,7 +214,7 @@ switch(_shop) do
 			case (playerSide != civilian): {"Vous n'êtes pas Civil !"};
 			default
 			{
-				["Hideout Armament",
+				["Armurerie de Planque (Légal)",
 					[
 						["hgun_Rook40_F",nil,1500],
 						["16Rnd_9x21_Mag",nil,25],
@@ -234,7 +234,7 @@ switch(_shop) do
 
 	case "genstore":
 	{
-		["Altis General Store",
+		["Magasin Général",
 			[
 				["Binocular",nil,150],
 				["ItemGPS",nil,100],

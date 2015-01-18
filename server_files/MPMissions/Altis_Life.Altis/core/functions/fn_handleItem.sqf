@@ -60,8 +60,8 @@ if(_bool) then
 			};
 			player addBackpack _item;
 			clearAllItemsFromBackpack player;
-			if(!isNil {_items}) then 
-			{ 
+			if(!isNil {_items}) then
+			{
 				{[_x,true,true,false,true] spawn life_fnc_handleItem; } foreach _items;
 			};
 		};
@@ -113,7 +113,7 @@ if(_bool) then
 			{
 				switch(_details select 5) do
 				{
-					case 0: 
+					case 0:
 					{
 						if(_ispack) then
 						{
@@ -127,19 +127,19 @@ if(_bool) then
 							}
 								else
 							{
-								if(_item in (assignedItems  player)) then 
+								if(_item in (assignedItems  player)) then
 								{
 									player addItem _item;
-								} 
-									else 
+								}
+									else
 								{
-									player addItem _item; 
+									player addItem _item;
 									player assignItem _item;
 								};
 							};
 						};
 					};
-					case 605: 
+					case 605:
 					{
 						if(_ispack) then
 						{
@@ -168,7 +168,7 @@ if(_bool) then
 							};
 						};
 					};
-					case 801: 
+					case 801:
 					{
 						if(_ispack) then
 						{
@@ -196,7 +196,7 @@ if(_bool) then
 											{player addItemToUniform _x} foreach _items;
 										};
 									};
-								} else {									
+								} else {
 									if(uniform player != "") then {
 										_items = uniformItems player;
 										removeUniform player;
@@ -216,7 +216,7 @@ if(_bool) then
 					};
 					case 701:
 					{
-						if(_ispack) then 
+						if(_ispack) then
 						{
 							player addItemToBackpack _item;
 						}
@@ -321,7 +321,7 @@ if(_bool) then
 							_type = [_item,301] call life_fnc_accType;
 
 							if(_ongun) then
-							{ 
+							{
 								switch (_type) do
 								{
 									case 1: { player addPrimaryWeaponItem _item; };
@@ -467,13 +467,13 @@ if(_bool) then
 						};
 					};
 
-					default 
-					{ 
-						if(_ispack) then 
+					default
+					{
+						if(_ispack) then
 						{
 							player addItemToBackpack _item;
-						} 
-							else 
+						}
+							else
 						{
 							player addItem _item;
 						};
@@ -558,7 +558,7 @@ if(_bool) then
 									_numVestWeps = _tWeaponCount select _forEachIndex;
 									if(_x == _this) then
 									{
-										_numVestWeps = _numVestWeps - 1;                        
+										_numVestWeps = _numVestWeps - 1;
 									};
 									(uniformContainer player) addWeaponCargo [ _x,_numVestWeps];
 								}forEach _tWeapons;
@@ -573,7 +573,7 @@ if(_bool) then
 									_numVestWeps = _tWeaponCount select _forEachIndex;
 									if(_x == _this) then
 									{
-										_numVestWeps = _numVestWeps - 1;                        
+										_numVestWeps = _numVestWeps - 1;
 									};
 									(vestContainer player) addWeaponCargo [ _x,_numVestWeps];
 								}forEach _tWeapons;
@@ -588,7 +588,7 @@ if(_bool) then
 									_numVestWeps = _tWeaponCount select _forEachIndex;
 									if(_x == _this) then
 									{
-										_numVestWeps = _numVestWeps - 1;                        
+										_numVestWeps = _numVestWeps - 1;
 									};
 									(backpackContainer player) addWeaponCargo [ _x,_numVestWeps];
 								}forEach _tWeapons;

@@ -2,7 +2,7 @@
 /*
 	File: fn_playerTags.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Adds the tags above other players heads when close and have visible range.
 */
@@ -39,7 +39,7 @@ _units = _units - [player];
 			_text = switch (true) do {
 				case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x getVariable ["realname",name _x])];};
 				case (!isNil {(_x getVariable "rank")}): {format["<img image='%1' size='1'></img> %2",switch ((_x getVariable "rank")) do {
-					case 2: {"\a3\ui_f\data\gui\cfg\Ranks\corporal_gs.paa"}; 
+					case 2: {"\a3\ui_f\data\gui\cfg\Ranks\corporal_gs.paa"};
 					case 3: {"\a3\ui_f\data\gui\cfg\Ranks\sergeant_gs.paa"};
 					case 4: {"\a3\ui_f\data\gui\cfg\Ranks\lieutenant_gs.paa"};
 					case 5: {"\a3\ui_f\data\gui\cfg\Ranks\captain_gs.paa"};
@@ -57,7 +57,7 @@ _units = _units - [player];
 					};
 				};
 			};
-			
+
 			_idc ctrlSetStructuredText parseText _text;
 			_idc ctrlSetPosition [_sPos select 0, _sPos select 1, 0.4, 0.65];
 			_idc ctrlSetScale scale;

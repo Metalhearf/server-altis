@@ -1,10 +1,10 @@
 /*
 	File: fn_nearUnits.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Checks for units near (human units)
-	
+
 	Returns:
 	TRUE - Units are near
 	FALSE - No units near

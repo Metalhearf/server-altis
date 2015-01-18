@@ -4,10 +4,10 @@
 	@file_author: TAW_Tonic
 	@file_edit: 8/2/2013
 	@file_description: Fetch information about the entities config
-	
+
 	USAGE:
 	[Classname,Cfg* (Optional)] call VAS_fnc_fetchCfgDetails;
-	
+
 	Return:
 	0: classname
 	1: displayname
@@ -72,20 +72,20 @@ switch (_cfg) do
 		_type = getText(_config >> "vehicleClass");
 		_scope = getNumber(_config >> "scope");
 	};
-	
+
 	case "CfgWeapons":
 	{
 		_scope = getNumber(_config >> "scope");
 		_type = getNumber(_config >> "type");
 		_desc = getText(_config >> "descriptionshort");
-		
+
 		//Compatible attachments
 		if(isClass (_config >> "WeaponSlotsInfo")) then
 		{
 			_acc_p = getArray(_config >> "WeaponSlotsInfo" >> "PointerSlot" >> "compatibleItems");
 			_acc_o = getArray(_config >> "WeaponSlotsInfo" >> "CowsSlot" >> "compatibleItems");
 			_acc_m = getArray(_config >> "WeaponSlotsInfo" >> "MuzzleSlot" >> "compatibleItems");
-			
+
 			{	private "_thiscfgitem";
 				for "_i" from 0 to (count(_x) - 1) do {
 					_thiscfgitem = _x select _i;
@@ -98,12 +98,12 @@ switch (_cfg) do
 			} forEach ([_config>>"WeaponSlotsInfo"] call bis_fnc_returnParents);
 
 		};
-		
+
 		if(isClass (_config >> "ItemInfo")) then
 		{
 			_itemInfo = getNumber(_config >> "ItemInfo" >> "Type");
 		};
-		
+
 		_muzzles = getArray(_config >> "muzzles");
 		_magazines = getArray(_config >> "magazines");
 		if(!isNil {_muzzles}) then
@@ -121,7 +121,7 @@ switch (_cfg) do
 			} foreach _muzzles;
 		};
 	};
-	
+
 	case "CfgMagazines":
 	{
 		_scope = getNumber(_config >> "scope");

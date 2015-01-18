@@ -1,7 +1,7 @@
 /*
 	File: fn_isnumeric.sqf
 	Author: I can't remember if I did it or Kronzsky
-	
+
 	Description:
 	Checks a string to make sure it is in numeric format.
 */
@@ -12,7 +12,7 @@ _array = [_value] call KRON_StrToArray;
 _return = true;
 
 {
-	if(_x in _valid) then	
+	if(_x in _valid) then
 	{}
 	else
 	{

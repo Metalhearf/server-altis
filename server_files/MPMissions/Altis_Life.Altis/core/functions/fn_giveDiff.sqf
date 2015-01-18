@@ -1,7 +1,7 @@
 /*
 	File: fn_giveDiff.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	??A?SD?ADS?A
 */

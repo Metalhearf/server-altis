@@ -1,7 +1,6 @@
 /*
     File: fn_loadGear.sqf
     Author: Bryan "Tonic" Boardwine
-    
     Description:
     Loads saved civilian gear, this is limited for a reason and that's balance.
 */
@@ -18,7 +17,7 @@ if(count _itemArray == 0) exitWith
         case west: {
             [] call life_fnc_copLoadout;
         };
-        
+
         case civilian: {
             [] call life_fnc_civLoadout;
         };

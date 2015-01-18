@@ -1,7 +1,7 @@
 /*
 	File: fn_calWeightDiff.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Calculates weight differences in the _cWeight (current Weight) against the _mWeight (Max Weight)
 	Multiple purpose system for this life mission.

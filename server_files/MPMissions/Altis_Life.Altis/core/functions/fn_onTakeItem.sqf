@@ -1,7 +1,7 @@
 /*
 	File: fn_onTakeItem.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Blocks the unit from taking something they should not have.
 */

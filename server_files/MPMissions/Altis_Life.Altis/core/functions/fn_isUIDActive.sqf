@@ -1,10 +1,10 @@
 /*
 	File: fn_isUIDActive.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Sees if the UID passed to it is in the server.
-	
+
 	Returns:
 	True if there was a match, false if not in server.
 */

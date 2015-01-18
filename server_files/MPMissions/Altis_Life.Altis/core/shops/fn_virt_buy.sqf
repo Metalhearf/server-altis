@@ -2,7 +2,7 @@
 /*
 	File: fn_virt_buy.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Buy a virtual item from the store.
 */

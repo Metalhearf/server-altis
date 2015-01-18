@@ -1,7 +1,7 @@
 /*
 	File: fn_clothingFilter.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Functionality for filtering clothing types in the menu.
 */

@@ -1,7 +1,7 @@
 /*
 	File: fn_virt_menu.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Initialize the virtual shop menu.
 */

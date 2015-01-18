@@ -2,7 +2,7 @@
 /*
 	File: fn_vehicleShopLBChange.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Called when a new selection is made in the list box and
 	displays various bits of information about the vehicle.

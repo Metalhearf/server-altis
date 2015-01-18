@@ -2,7 +2,7 @@
 /*
 	File: fn_virt_update.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Update and fill the virtual shop menu.
 */
@@ -37,7 +37,7 @@ ctrlSetText[2403,format["%1", _shop_data select 0]];
 	_var = [_x,0] call life_fnc_varHandle;
 	_val = missionNameSpace getVariable _var;
 	_name = [_var] call life_fnc_vartostr;
-	
+
 	if(_val > 0) then
 	{
 		_gear_list lbAdd format["%1x %2",_val,_name];

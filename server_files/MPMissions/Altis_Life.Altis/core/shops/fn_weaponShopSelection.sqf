@@ -2,7 +2,7 @@
 /*
 	File: fn_weaponShopSelection.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Checks the weapon & adds the price tag.
 */
@@ -16,7 +16,7 @@ _item = _control lbData _index;
 if((uiNamespace getVariable["Weapon_Shop_Filter",0]) == 1) then
 {
 	_iS = [_item,__GETC__(life_weapon_shop_array)] call TON_fnc_index;
-	if(_iS == -1) then 
+	if(_iS == -1) then
 	{
 		_price = 0;
 	}

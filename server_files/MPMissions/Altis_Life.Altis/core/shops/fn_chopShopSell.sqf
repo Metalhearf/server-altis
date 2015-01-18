@@ -1,7 +1,7 @@
 /*
 	File: fn_chopShopSell.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Sells the selected vehicle off.
 */

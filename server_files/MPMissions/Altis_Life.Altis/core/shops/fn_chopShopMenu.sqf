@@ -1,7 +1,7 @@
 /*
 	File: fn_chopShopMenu.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Opens & initializes the chop shop menu.
 */
@@ -22,7 +22,7 @@ _control = ((findDisplay 39400) displayCtrl 39402);
 		_displayName = getText(configFile >> "CfgVehicles" >> _className >> "displayName");
 		_picture = getText(configFile >> "CfgVehicles" >> _className >> "picture");
 		_ind = [_className,(call life_garage_sell)] call TON_fnc_index;
-		
+
 		if(_ind != -1 && count crew _x == 0) then {
 			_price = ((call life_garage_sell) select _ind) select 1;
 			_control lbAdd _displayName;

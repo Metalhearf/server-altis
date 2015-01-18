@@ -2,7 +2,7 @@
 /*
 	File: fn_atmMenu.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Opens and manages the bank menu.
 */

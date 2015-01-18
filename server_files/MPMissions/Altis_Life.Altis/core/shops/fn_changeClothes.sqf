@@ -1,7 +1,7 @@
 /*
 	File: fn_changeClothes.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Used in the clothing store to show a 'preview' of the piece of clothing.
 */

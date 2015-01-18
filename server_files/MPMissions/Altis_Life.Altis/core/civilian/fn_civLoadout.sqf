@@ -1,7 +1,7 @@
 /*
 	File: fn_civLoadout.sqf
 	Author: Tobias 'Xetoxyc' Sittenauer
-	
+
 	Description:
 	Loads the civs out with the default gear, with randomized clothing.
 */

@@ -1,7 +1,7 @@
 /*
 	File: fn_adminid.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Output information received to admin menu.
 */

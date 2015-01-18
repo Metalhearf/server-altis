@@ -1,7 +1,7 @@
 /*
 	File: fn_adminQuery.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts the query on a player.
 */

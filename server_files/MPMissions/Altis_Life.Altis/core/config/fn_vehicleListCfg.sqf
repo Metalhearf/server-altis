@@ -92,8 +92,6 @@ switch (_shop) do
 		{
 			_return pushBack
 			["B_MRAP_01_F",30000];
-			_return pushBack
-			["B_UGV_01_F",15000];
 		};
 	};
 

@@ -206,14 +206,6 @@ switch (_vehicle) do
 			case 0: {_color = "Noir"};
 		};
 	};
-
-	case "B_UGV_01_F":
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Gris"};
-		};
-	};
 };
 
 _color;

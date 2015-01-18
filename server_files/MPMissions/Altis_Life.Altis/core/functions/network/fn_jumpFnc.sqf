@@ -1,7 +1,7 @@
 /*
 	File: fn_jumpFnc.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Makes the target jump.
 */

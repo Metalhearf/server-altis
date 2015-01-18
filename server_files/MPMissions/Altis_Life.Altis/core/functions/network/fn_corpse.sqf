@@ -1,7 +1,7 @@
 /*
 	File: fn_corpse.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Hides dead bodies.
 */

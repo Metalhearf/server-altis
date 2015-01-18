@@ -1,7 +1,7 @@
 /*
 	File: fn_netSetVar.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Set a variable on a client.
 */

@@ -1,7 +1,7 @@
 /*
 	File: fn_jerryRefuel.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Refuels the vehicle if the player has a fuel can.
 */
@@ -67,7 +67,7 @@ switch (true) do
 			_vehicle setFuel ((Fuel _vehicle) + 0.5);
 		};
 	};
-	
+
 	case (_vehicle isKindOf "Air"):
 	{
 		if(!local _vehicle) then
@@ -79,7 +79,7 @@ switch (true) do
 			_vehicle setFuel ((Fuel _vehicle) + 0.2);
 		};
 	};
-	
+
 	case (_vehicle isKindOf "Ship"):
 	{
 		if(!local _vehicle) then

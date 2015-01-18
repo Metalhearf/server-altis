@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Tries to place a storage box in the nearest house.
 */
@@ -31,26 +31,26 @@ switch (_boxType) do {
 	case "storagesmall": {
 		_container = "Box_IND_Grenades_F" createVehicle [0,0,0];
 		_container setPosATL _pos;
-		
+
 		_containers pushBack _container;
 		_house setVariable["containers",_containers,true];
 		[[_house],"TON_fnc_updateHouseContainers",false,false] spawn life_fnc_MP;
-		
+
 		//Empty out the crate
 		clearWeaponCargoGlobal _container;
 		clearMagazineCargoGlobal _container;
 		clearItemCargoGlobal _container;
 		clearBackpackCargoGlobal _container;
 	};
-	
+
 	case "storagebig": {
 		_container = "B_supplyCrate_F" createVehicle [0,0,0];
 		_container setPosATL _pos;
-		
+
 		_containers pushBack _container;
 		_house setVariable["containers",_containers,true];
 		[[_house],"TON_fnc_updateHouseContainers",false,false] spawn life_fnc_MP;
-		
+
 		//Empty out the crate
 		clearWeaponCargoGlobal _container;
 		clearMagazineCargoGlobal _container;

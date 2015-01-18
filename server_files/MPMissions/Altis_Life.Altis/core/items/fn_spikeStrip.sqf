@@ -1,7 +1,7 @@
 /*
 	File: fn_spikeStrip.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Creates a spike strip and preps it.
 */

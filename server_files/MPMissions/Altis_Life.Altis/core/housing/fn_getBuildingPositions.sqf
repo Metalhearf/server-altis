@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Retrieves all 3D-world positions in a building and also restricts
 	certain positions due to window positioning.

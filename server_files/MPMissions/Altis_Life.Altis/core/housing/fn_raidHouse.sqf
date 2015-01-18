@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Raids the players house?
 */
@@ -54,7 +54,7 @@ _value = 0;
 {
 	_var = _x select 0;
 	_val = _x select 1;
-	
+
 	_index = [_var,life_illegal_items] call TON_fnc_index;
 	if(_index != -1) then {
 		_vIndex = [_var,__GETC__(sell_array)] call TON_fnc_index;

@@ -1,7 +1,7 @@
 /*
 	File: fn_lockpick.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Main functionality for lock-picking.
 */

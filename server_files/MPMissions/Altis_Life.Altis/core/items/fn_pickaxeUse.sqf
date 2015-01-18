@@ -1,7 +1,7 @@
 /*
 	File: fn_pickaxeUse.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Main functionality for pickaxe in mining.
 */

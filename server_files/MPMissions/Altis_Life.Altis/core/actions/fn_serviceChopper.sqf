@@ -1,7 +1,7 @@
 /*
 	File: fn_serviceChopper.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Main functionality for the chopper service paid, to be replaced in later version.
 */

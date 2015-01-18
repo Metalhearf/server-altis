@@ -1,7 +1,7 @@
 /*
 	File: fn_healHospital.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Doesn't matter, will be revised later.
 */

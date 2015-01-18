@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Blah blah.
 */
@@ -20,7 +20,7 @@ if(!isNull _group) then {
 		localize "STR_Global_Yes",
 		localize "STR_Global_No"
 	] call BIS_fnc_guiMessage;
-	
+
 	_cpRate = 0.0045;
 } else {
 	_cpRate = 0.0075;

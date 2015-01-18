@@ -1,7 +1,7 @@
 /*
 	File: fn_buyLicense.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Called when purchasing a license. May need to be revised.
 */

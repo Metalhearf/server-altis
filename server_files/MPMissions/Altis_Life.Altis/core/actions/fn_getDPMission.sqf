@@ -1,7 +1,7 @@
 /*
 	File: fn_getDPMission.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Selects a random DP point for a delivery mission.
 	Needs to be revised.

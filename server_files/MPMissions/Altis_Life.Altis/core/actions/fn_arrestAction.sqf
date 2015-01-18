@@ -1,6 +1,6 @@
 /*
 	File: fn_arrestAction.sqf
-	
+
 	Description:
 	Arrests the targeted person.
 */

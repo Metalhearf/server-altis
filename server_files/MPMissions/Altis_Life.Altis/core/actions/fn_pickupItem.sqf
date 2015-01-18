@@ -1,7 +1,7 @@
 /*
 	File: fn_pickupItem.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Master handling for picking up an item.
 */

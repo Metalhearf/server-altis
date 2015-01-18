@@ -1,7 +1,7 @@
 /*
 	File: fn_repairTruck.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Main functionality for toolkits, to be revised in later version.
 */
@@ -25,7 +25,7 @@ if((_veh isKindOf "Car") OR (_veh isKindOf "Ship") OR (_veh isKindOf "Air")) the
 		_pgText ctrlSetText format["%2 (1%1)...","%",_upp];
 		_progress progressSetPosition 0.01;
 		_cP = 0.01;
-		
+
 		while{true} do
 		{
 			if(animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
@@ -41,7 +41,7 @@ if((_veh isKindOf "Car") OR (_veh isKindOf "Ship") OR (_veh isKindOf "Air")) the
 			if(player != vehicle player) exitWith {};
 			if(life_interrupted) exitWith {};
 		};
-		
+
 		life_action_inUse = false;
 		5 cutText ["","PLAIN"];
 		player playActionNow "stop";

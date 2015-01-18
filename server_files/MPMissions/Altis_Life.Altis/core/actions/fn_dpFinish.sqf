@@ -1,7 +1,7 @@
 /*
 	File: fn_dpFinish.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Finishes the DP Mission and calculates the money earned based
 	on distance between A->B

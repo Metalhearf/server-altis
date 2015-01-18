@@ -1,7 +1,7 @@
 /*
 	File: fn_robAction.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts the robbing process?
 */

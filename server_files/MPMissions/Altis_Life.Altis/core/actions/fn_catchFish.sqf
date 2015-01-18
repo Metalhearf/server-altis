@@ -1,7 +1,7 @@
 /*
 	File: fn_catchFish.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Catches a fish that is near by.
 */

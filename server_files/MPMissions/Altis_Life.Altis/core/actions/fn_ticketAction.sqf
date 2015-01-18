@@ -1,7 +1,7 @@
 /*
 	File: fn_ticketAction.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts the ticketing process.
 */

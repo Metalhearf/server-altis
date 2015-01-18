@@ -1,7 +1,7 @@
 /*
 	File: fn_packupSpikes.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Packs up a deployed spike strip.
 */

@@ -1,7 +1,7 @@
 /*
 	File: fn_putInCar.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Finds the nearest vehicle and loads the target into the vehicle.
 */

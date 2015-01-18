@@ -1,7 +1,7 @@
 /*
 	File: fn_postBail.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Called when the player attempts to post bail.
 	Needs to be revised.

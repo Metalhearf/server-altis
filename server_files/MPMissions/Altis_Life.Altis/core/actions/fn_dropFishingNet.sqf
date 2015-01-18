@@ -1,7 +1,7 @@
 /*
 	File: fn_dropFishingNet.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Drops a virtual fishing net from the boat.
 */
@@ -25,9 +25,9 @@ if(count _fish == 0) exitWith {titleText[localize "STR_NOTF_NetDropFail","PLAIN"
 			case ((typeOf _x) == "CatShark_F") : {_typeName = localize "STR_ANIM_Catshark"; _type = "catshark";};
 			default {_type = "";};
 		};
-		
+
 		sleep 3;
-		
+
 		if(([true,_type,1] call life_fnc_handleInv)) then
 		{
 			deleteVehicle _x;

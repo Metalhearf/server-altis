@@ -1,6 +1,6 @@
 /*
 	File: fn_vehicleDead.sqf
-
+	
 	Description:
 	Tells the database that this vehicle has died and can't be recovered.
 */

@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Updates the storage for a house blah blah
 */

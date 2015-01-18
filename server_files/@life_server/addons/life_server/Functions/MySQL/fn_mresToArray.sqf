@@ -1,7 +1,7 @@
 /*
 	File: fn_mresToArray.sqf
 	Author: Bryan "Tonic" Boardwine";
-
+	
 	Description:
 	Acts as a mres (MySQL Real Escape) for arrays so they
 	can be properly inserted into the database without causing

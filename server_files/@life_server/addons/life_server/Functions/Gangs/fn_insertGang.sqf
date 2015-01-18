@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Inserts the gang into the database.
 */

@@ -1,7 +1,7 @@
 /*
 	File: fn_wantedBounty.sqf
 	Author: Bryan "Tonic" Boardwine"
-
+	
 	Description:
 	Checks if the person is on the bounty list and awards the cop for killing them.
 */

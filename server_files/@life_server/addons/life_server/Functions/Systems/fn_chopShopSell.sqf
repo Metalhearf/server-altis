@@ -1,7 +1,7 @@
 /*
 	File: fn_chopShopSell.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Checks whether or not the vehicle is persistent or temp and sells it.
 */

@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Fetches the nearest door of the building the player is looking
 	at.

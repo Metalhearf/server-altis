@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Queries to see if the player belongs to any gang.
 */

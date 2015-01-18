@@ -1,7 +1,7 @@
 /*
 	File: fn_wantedRemove.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Removes a person from the wanted list.
 */

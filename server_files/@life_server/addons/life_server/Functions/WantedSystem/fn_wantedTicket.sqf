@@ -1,7 +1,7 @@
 /*
 	File: fn_wantedTicket.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Checks the price of the ticket against the bounty, if => then bounty remove them from the wanted list.
 */

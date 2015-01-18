@@ -1,7 +1,7 @@
 /*
 	File: fn_wantedPerson.sqf
 	Author: Bryan "Tonic" Boardwine"
-
+	
 	Description:
 	Fetches a specific person from the wanted array.
 */

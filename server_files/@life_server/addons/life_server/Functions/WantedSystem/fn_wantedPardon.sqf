@@ -1,7 +1,7 @@
 /*
 	File: fn_wantedPardon.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Unwants / pardons a person from the wanted list.
 */

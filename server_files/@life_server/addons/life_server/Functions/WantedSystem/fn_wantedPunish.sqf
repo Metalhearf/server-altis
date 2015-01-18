@@ -1,7 +1,7 @@
 /*
 	File: fn_wantedPunish.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Checks to see if the person is wanted, if they are it will punish them.
 */

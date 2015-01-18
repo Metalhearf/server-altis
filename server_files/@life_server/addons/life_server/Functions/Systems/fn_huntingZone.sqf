@@ -1,7 +1,7 @@
 /*
 	File: fn_huntingZone.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Main functionality for the hunting zone.
 */
@@ -34,7 +34,7 @@ if(_bool) then
 			deleteVehicle _x;
 		};
 	} foreach life_animals_array;
-
+	
 	life_animals_array = [];
 	life_animals_spawned = false;
 };

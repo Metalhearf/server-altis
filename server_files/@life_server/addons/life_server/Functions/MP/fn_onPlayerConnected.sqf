@@ -8,7 +8,7 @@
 	Parameter(s):
 		0: STRING or CODE - function variable or code to be executed
 		1: ANY - optional arguments passed to the function
-
+	
 	Returns:
 	BOOL
 */

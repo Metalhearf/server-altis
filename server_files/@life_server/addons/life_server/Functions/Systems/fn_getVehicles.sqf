@@ -1,7 +1,7 @@
 /*
 	File: fn_getVehicles.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Sends a request to query the database information and returns vehicles.
 */

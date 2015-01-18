@@ -1,7 +1,7 @@
 /*
 	File: fn_updateRequest.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Ain't got time to describe it, READ THE FILE NAME!
 */

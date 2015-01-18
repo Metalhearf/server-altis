@@ -7,7 +7,7 @@
 	Parameter(s):
 	_this select 0: STRING - Packet variable name (always "BIS_fnc_MP_packet")
 	_this select 1: ARRAY - Packet value (sent by BIS_fnc_MP function; see it's description for more details)
-
+	
 	Returns:
 	BOOL - true if function was executed successfuly
 */

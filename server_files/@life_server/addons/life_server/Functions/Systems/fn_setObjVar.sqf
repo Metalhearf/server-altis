@@ -1,6 +1,6 @@
 /*
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Sets a variable on the given object from the server,
 	workaround for brokenness of ARMA 3, yes Brokenness is a word!

@@ -1,7 +1,7 @@
 /*
 	File: fn_initHC.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Server checks for the headless client and initializes?
 */

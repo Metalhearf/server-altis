@@ -1,7 +1,7 @@
 /*
 	File: fn_wantedFetch.sqf
 	Author: Bryan "Tonic" Boardwine"
-
+	
 	Description:
 	Displays wanted list information sent from the server.
 */

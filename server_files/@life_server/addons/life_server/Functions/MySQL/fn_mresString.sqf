@@ -1,7 +1,7 @@
 /*
 	File: fn_mresString.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Makes the string safe to be passed to MySQL (strips various stuff).
 */

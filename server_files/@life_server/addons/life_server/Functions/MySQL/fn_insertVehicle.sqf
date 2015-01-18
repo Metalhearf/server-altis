@@ -1,7 +1,7 @@
 /*
 	File: fn_insertVehicle.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Inserts the vehicle into the database
 */

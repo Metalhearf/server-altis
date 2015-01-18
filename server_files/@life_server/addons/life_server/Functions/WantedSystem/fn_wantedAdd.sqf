@@ -1,7 +1,7 @@
 /*
 	File: fn_wantedAdd.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Adds or appends a unit to the wanted list.
 */

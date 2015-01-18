@@ -19,7 +19,7 @@ _arr = [];
 	_magazines = getMagazineCargo _x;
 	_items = getItemCargo _x;
 	_backpacks = getBackpackCargo _x;
-
+	
 	_arr pushBack [_className,[_weapons,_magazines,_items,_backpacks]];
 } foreach _containers;
 

@@ -1,10 +1,10 @@
 /*
 	File: fn_spikeStrip.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	This is the server-side part of it which constantly monitors the spike strip and vehicles near it.
-	First originally tried triggers but I was never any good at those nor do I like them as they
+	First originally tried triggers but I was never any good at those nor do I like them as they 
 	have a global effect.
 */
 private["_nearVehicles","_spikeStrip"];

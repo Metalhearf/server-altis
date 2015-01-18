@@ -32,7 +32,7 @@ life_removeWanted = false;
 life_action_gathering = false;
 
 //Persistent Saving
-__CONST__(life_save_civ,FALSE); //Save weapons for civs?
+__CONST__(life_save_civ,TRUE); //Save weapons for civs?
 __CONST__(life_save_yinv,FALSE); //Save Y-Inventory for players?
 
 //Revive constant variables.

@@ -2,7 +2,7 @@
 /*
 	File: fn_onPlayerRespawn.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Does something but I won't know till I write it...
 */

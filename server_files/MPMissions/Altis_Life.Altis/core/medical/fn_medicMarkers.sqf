@@ -1,7 +1,7 @@
 /*
 	File: fn_medicMarkers.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Marks downed players on the map when it's open.
 */
@@ -18,7 +18,7 @@ if(visibleMap) then {
 			_units pushBack _x;
 		};
 	} foreach allDeadMen;
-	
+
 	//Loop through and create markers.
 	{
 		_marker = createMarkerLocal [format["%1_dead_marker",_x],visiblePosition _x];
@@ -27,7 +27,7 @@ if(visibleMap) then {
 		_marker setMarkerTextLocal format["%1",(_x getVariable["name","Unknown Player"])];
 		_markers pushBack _marker;
 	} foreach _units;
-	
+
 	waitUntil {!visibleMap};
 	{deleteMarkerLocal _x;} foreach _markers;
 };

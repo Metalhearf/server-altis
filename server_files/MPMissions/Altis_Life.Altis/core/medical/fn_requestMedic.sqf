@@ -1,7 +1,7 @@
 /*
 	File: fn_requestMedic.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	N/A
 */
@@ -17,7 +17,7 @@ if(_medicsOnline) then {
 };
 
 //Create a thread to monitor duration since last request (prevent spammage).
-[] spawn 
+[] spawn
 {
 	((findDisplay 7300) displayCtrl 7303) ctrlEnable false;
 	sleep (2 * 60);

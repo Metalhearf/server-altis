@@ -1,7 +1,7 @@
 /*
 	File: fn_medicRequest.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Notifies the medics that someone has requested emergency and prompts them
 	if they want to take the request or not.

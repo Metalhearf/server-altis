@@ -1,7 +1,7 @@
 /*
 	File: fn_deathScreen.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Handles stuff being displayed on the death screen while
 	it is currently active.

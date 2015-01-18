@@ -1,7 +1,6 @@
 /*
 	File: fn_sirenLights.sqf
 	Author: Bryan "Tonic" Boardwine
-	
 	Description:
 	Lets play a game! Can you guess what it does? I have faith in you, if you can't
 	then you have failed me and therefor I lose all faith in humanity.. No pressure.

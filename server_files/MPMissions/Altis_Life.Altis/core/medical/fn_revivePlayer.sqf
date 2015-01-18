@@ -1,7 +1,7 @@
 /*
 	File: fn_revivePlayer.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts the revive process on the player.
 */

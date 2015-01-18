@@ -1,7 +1,7 @@
 /*
 	File: fn_revived.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	THANK YOU JESUS I WAS SAVED!
 */

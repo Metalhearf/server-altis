@@ -1,14 +1,15 @@
-Readme - Server
+===This is an Arma 3 modded server===
+
 ============
 
-Pour télécharger le fichier de Mods le plus récent, il faut aller ici :
-
+Lien vers le dernier mod :
 https://mega.co.nz/#F!8cwwhI7A!NIE2C9rhpDXEXMEUvkWprQ
 
-Ensuite placer ce dossier dans votre répertoire de base d'Arma3 et activer cette extension une fois en jeu (Menu Extensions).
-Vous pourrez à présent voir tous les objets personnalisés sur le serveur, sinon, vous ne verrez rien.
+- Placer ce dossier dans le répertoire de base d'Arma
+- Activer l'extension via l'ingame-menu
 
-Votre répertoire doit ressembler à ceci :
+===========
+Exemple :
 
 VotreRepertoireArma3/@life_server/addons/xxx.pbo <br>
 VotreRepertoireArma3/@life_server/addons/xxx.bisign

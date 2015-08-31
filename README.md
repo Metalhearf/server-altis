@@ -2,7 +2,7 @@ server-altis
 =
 
 -----
-This is an Arma 3 modded server
+This is an Arma 3 (french) modded server
 -----
 
 Client Mod :

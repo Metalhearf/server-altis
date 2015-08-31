@@ -1,15 +1,16 @@
-===This is an Arma 3 modded server===
+server-altislife
+=
 
-============
+-----
+This is an Arma 3 modded server
+-----
 
-Lien vers le dernier mod :
+Client Mod :
 https://mega.co.nz/#F!8cwwhI7A!NIE2C9rhpDXEXMEUvkWprQ
 
-- Placer ce dossier dans le répertoire de base d'Arma
-- Activer l'extension via l'ingame-menu
+- Extract in your game base directory
+- Activate the client mod via ingame menu settings
 
-===========
-Exemple :
-
-VotreRepertoireArma3/@life_server/addons/xxx.pbo <br>
-VotreRepertoireArma3/@life_server/addons/xxx.bisign
+Example :
+[...]Arma3/@life_server/addons/xxx.pbo <br>
+[...]Arma3/@life_server/addons/xxx.bisign
